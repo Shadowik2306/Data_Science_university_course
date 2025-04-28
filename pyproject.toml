@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "mai"
+version = "1.0.0"
+description = "MAI Examples"
+authors = ["Aleksey Filippov <al.filippov@ulstu.ru>"]
+readme = "readme.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+rpds-py = "^0.18.0"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+imbalanced-learn = "^0.12.3"
+featuretools = "^1.31.0"
+gymnasium = "^1.0.0"
+scikit-fuzzy = "^0.5.0"
+networkx = "^3.4.2"
+python-docx = "^1.1.2"
+spacy = "^3.7.5"
+ru_core_news_lg = {url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_lg-3.7.0/ru_core_news_lg-3.7.0-py3-none-any.whl"}
+nltk = "^3.9.1"
+emoji = "^2.14.1"
+mahotas = "^1.4.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
